@@ -26,6 +26,8 @@ def query_ollama(context, query, model="llama3"):
     prompt = f"Use the following context to answer the question:\n{context}\n\nQ: {query}\nA:"
     response = requests.post(
         "http://localhost:11434/api/generate",
-        json={"model": model, "prompt": prompt, "stream": False}
+        json={"model": model, "prompt": prompt, \
+              "temperature": 0.5,  # Lower = more deterministic, default 0.7
+              "stream": False}
     )
     return response.json()["response"]
