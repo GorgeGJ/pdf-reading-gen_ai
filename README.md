@@ -31,7 +31,7 @@ This is a local Generative AI app powered by **Ollama**, **LangChain**, and **St
     ```
 
 ## 🧪 Demo Notebook
-See `demo_notebook.ipynb` (coming soon) for example use.
+See `demo_notebook.ipynb` shows use case for resumne screening.
 
 ---
 
