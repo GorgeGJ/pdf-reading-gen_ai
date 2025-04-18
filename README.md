@@ -86,24 +86,4 @@ Use `demo_notebook.ipynb` minic real-life resume gen-ai screening process:
 
 ---
 
-## 🛠️ Troubleshooting
-
-**Q: How do I know if Ollama is running?**  
-A: Run this in terminal:
-```bash
-curl http://localhost:11434
-```
-Or:
-```bash
-ollama list
-```
-
-**Q: I get `KeyError: 'response'` from Ollama**  
-A: The model may not be loaded. Make sure to run:
-```bash
-ollama run llama3
-```
-
----
-
 > Built for curious minds and document deep-divers. Fully private, fully yours.
