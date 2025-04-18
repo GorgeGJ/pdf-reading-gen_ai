@@ -79,7 +79,7 @@ Select the model from the **sidebar dropdown**.
 
 ## 🧪 Demo Notebook
 
-Use `demo_notebook.ipynb` to interact with the PDF pipeline via code:
+Use `demo_notebook.ipynb` minic real-life resume gen-ai screening process:
 - Load and embed documents
 - Run RAG queries
 - Debug prompt behavior
