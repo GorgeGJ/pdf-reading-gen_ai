@@ -43,16 +43,17 @@ This is a fully local Generative AI app powered by **Ollama**, **LangChain**, an
     ollama run llama3
     ```
 
-3. Clone this repo and install Python dependencies
+3. Open a new terminal, Clone this repo and install Python dependencies
     ```bash
+    git clone https://github.com/GorgeGJ/pdf-reading-gen_ai.git
     Python3 -m pip install -r requirements.txt
     ```
 
-4. Run the Streamlit app
+4. Luanch the Streamlit app
     ```bash
-    streamlit run app.py
+    Python3 -m streamlit run app.py
     ```
-
+    It would be how the app looks like:
 ---
 
 ## 📥 Using the App
