@@ -61,8 +61,9 @@ This is a fully local Generative AI app powered by **Ollama**, **LangChain**, an
 1. Upload one or more PDF files via the upload box
 2. Click **“Embed All PDFs”** to index the content
 3. Ask any question via the chat input box
-4. View answers in chat bubbles (Markdown-formatted!)
-5. Optionally clear or download your chat history
+4. Choice between different models(llama3, mistral, gemma)
+5. View answers in chat bubbles (Markdown-formatted!)
+6. Optionally clear or download your chat history
 
 ---
 
@@ -72,7 +73,6 @@ This app works with any model you run in **Ollama**, including:
 - `llama3`
 - `mistral`
 - `gemma`
-- `llama2`, `codellama`, etc.
 
 Select the model from the **sidebar dropdown**.
 
