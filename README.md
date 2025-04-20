@@ -38,7 +38,7 @@ This is a fully local Generative AI app powered by **Ollama**, **LangChain**, an
     brew install ollama
     ```
 
-2. Run a model (e.g., LLaMA 3 or Mistral)
+2. Run a model (e.g., LLaMA 3, Mistral or gemma)
     ```bash
     ollama run llama3
     ```
