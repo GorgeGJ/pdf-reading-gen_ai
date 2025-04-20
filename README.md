@@ -45,7 +45,7 @@ This is a fully local Generative AI app powered by **Ollama**, **LangChain**, an
 
 3. Clone this repo and install Python dependencies
     ```bash
-    pip install -r requirements.txt
+    Python3 -m pip install -r requirements.txt
     ```
 
 4. Run the Streamlit app
