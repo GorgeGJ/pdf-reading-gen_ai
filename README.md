@@ -53,7 +53,7 @@ This is a fully local Generative AI app powered by **Ollama**, **LangChain**, an
     ```bash
     Python3 -m streamlit run app.py
     ```
-    It would be how the app looks like ![chat_interface(Chat_interface.png)
+    It would be how the app looks like ![chat_interface(Chat_interface.png)]
 ---
 
 ## 📥 Using the App
