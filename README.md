@@ -38,21 +38,22 @@ This is a fully local Generative AI app powered by **Ollama**, **LangChain**, an
     brew install ollama
     ```
 
-2. Run a model (e.g., LLaMA 3 or Mistral)
+2. Run a model (e.g., LLaMA 3, Mistral or gemma)
     ```bash
     ollama run llama3
     ```
 
-3. Clone this repo and install Python dependencies
+3. Open a new terminal, Clone this repo and install Python dependencies
     ```bash
-    pip install -r requirements.txt
+    git clone https://github.com/GorgeGJ/pdf-reading-gen_ai.git
+    Python3 -m pip install -r requirements.txt
     ```
 
-4. Run the Streamlit app
+4. Luanch the Streamlit app
     ```bash
-    streamlit run app.py
+    Python3 -m streamlit run app.py
     ```
-
+    It would be how the app looks like ![chat_interface](Chat_interface.png)
 ---
 
 ## 📥 Using the App
@@ -60,8 +61,9 @@ This is a fully local Generative AI app powered by **Ollama**, **LangChain**, an
 1. Upload one or more PDF files via the upload box
 2. Click **“Embed All PDFs”** to index the content
 3. Ask any question via the chat input box
-4. View answers in chat bubbles (Markdown-formatted!)
-5. Optionally clear or download your chat history
+4. Choice between different models(llama3, mistral, gemma)
+5. View answers in chat bubbles (Markdown-formatted!)
+6. Optionally clear or download your chat history
 
 ---
 
@@ -71,7 +73,6 @@ This app works with any model you run in **Ollama**, including:
 - `llama3`
 - `mistral`
 - `gemma`
-- `llama2`, `codellama`, etc.
 
 Select the model from the **sidebar dropdown**.
 
@@ -83,26 +84,6 @@ Use `demo_notebook.ipynb` minic real-life resume gen-ai screening process:
 - Load and embed documents
 - Run RAG queries
 - Debug prompt behavior
-
----
-
-## 🛠️ Troubleshooting
-
-**Q: How do I know if Ollama is running?**  
-A: Run this in terminal:
-```bash
-curl http://localhost:11434
-```
-Or:
-```bash
-ollama list
-```
-
-**Q: I get `KeyError: 'response'` from Ollama**  
-A: The model may not be loaded. Make sure to run:
-```bash
-ollama run llama3
-```
 
 ---
 
